@@ -213,8 +213,8 @@ void coin() {
           chaseSpeed += .2; 
           ammo++;
         }
-        x = append(x, random(380, width - 380));
-        y = append(y, random(725, 775));
+        x = append(x, random(50, width - 50));
+        y = append(y, random(250, 775));
     }
     x[i] += random(-2, 2);
     y[i] += random(-2, 2);
